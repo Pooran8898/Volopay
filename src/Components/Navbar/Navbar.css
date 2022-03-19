@@ -1,12 +1,12 @@
 .navbarContainer {
  display: flex;
  justify-content: space-between;
- height: 10vh;
+ height: 20vh;
 }
 
 .headlineContainer {
     display: flex;
-    margin-left: 5%;
+    margin-left: 3%;
     align-items: center;
 }
 
@@ -16,13 +16,13 @@
 }
 
 .navButtonContainer {
-    margin-right: 10%;
+    margin-right: 5%;
     display: flex;
     align-items: center;
 }
 
 .navButton {
-    height: 60%;
+    height: 30%;
     display: flex;
     align-items: center;
     justify-content: center;

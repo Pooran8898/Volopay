@@ -10,7 +10,7 @@ export const Navbar = () => {
             </div>
             <div className="navButtonContainer">
                 <button className="navButton">
-                    <h3><span><AiOutlinePlus className="plusLogo" /></span> &nbsp; &nbsp;Virtual card</h3>
+                    <h3><span><AiOutlinePlus className="plusLogo" /></span> &nbsp;Virtual card</h3>
                 </button>
             </div>
         </nav>
