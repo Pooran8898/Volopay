@@ -1,0 +1,47 @@
+.navbarContainer {
+ display: flex;
+ justify-content: space-between;
+ height: 10vh;
+}
+
+.headlineContainer {
+    display: flex;
+    margin-left: 5%;
+    align-items: center;
+}
+
+.headline {
+    font-size: 2rem;
+    color: #242524;
+}
+
+.navButtonContainer {
+    margin-right: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.navButton {
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 10px 16px 10px;
+    border: none;
+    outline: none;
+    box-shadow: rgba(100,100,111,0.2) 0px 2px 20px 0px;
+    background-color: #ffffff;
+    color: #242524;
+}
+
+.navButton > h3 {
+    font-size: 1rem;
+}
+
+
+.plusLogo {
+    font-size: 1.2rem;
+    position: relative;
+    top: 4px;
+}
+
