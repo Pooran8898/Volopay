@@ -1,0 +1,45 @@
+
+.searchBarContainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 2%;
+}
+
+.searchBarContainer > svg {
+    font-size: 1rem;
+    margin-right: 1%;
+    fill: rgb(37, 36, 36);
+    cursor: pointer;
+}
+
+.searchInput {
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    background-color: #f9f9f8;
+    padding: 0.6rem 1rem;
+    border-radius: 0.5rem;
+    margin-right: 1%;
+}
+
+.filterButton {
+    margin-right: 3%;
+    padding: 0.4rem 0.6rem;
+    background-color: #f9f9f8;
+    color: grey;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.filterButton > h4 {
+    font-size: 1rem;
+}
+
+.filterLogo {
+    position: relative;
+    top: 3px;
+}
+
