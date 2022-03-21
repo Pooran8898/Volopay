@@ -1,15 +1,12 @@
 
 import './App.css';
-import { Cardheader } from './Components/Cardheader/Cardheader';
-import { Cards } from './Components/Cards/Cards';
-import { Navbar } from './Components/Navbar/Navbar';
+import { AppRouter } from './Components/AppRouter/AppRouter';
+
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Cardheader />
-      <Cards />
+      <AppRouter />
     </div>
   );
 }
