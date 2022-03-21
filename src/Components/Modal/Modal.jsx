@@ -29,7 +29,7 @@ export const FilterModal = ({ open, handlemodal }) => {
                 aria-labelledby="modal-modal-title"
                 aria-describedby="modal-modal-description"
             >
-                <Box sx={style}>
+                <Box sx={style} className="modalBox">
                     <div className='modalContainer'>
                         <div className="modalHeading">
                             <h3>Filters</h3>
