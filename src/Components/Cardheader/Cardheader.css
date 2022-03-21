@@ -18,6 +18,11 @@
    position: relative;
 }
 
+.pagesContainer > h3 > a {
+  text-decoration: none;
+  color: grey;
+}
+
 .demoContainer {
     margin-right: 5%;
     display: flex;

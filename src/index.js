@@ -3,11 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import { BrowserRouter } from 'react-router-dom';
+import { DatacontextProvider } from "./Components/Datacontext/Datacontext";
 
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
-    <App />   
+      <DatacontextProvider>
+        <App />
+      </DatacontextProvider>
     </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
