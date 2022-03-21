@@ -1,0 +1,75 @@
+.modalContainer {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.modalHeading {
+    border-bottom: 1px solid grey;
+}
+
+.modalHeading > h3 {
+    margin: 1rem 1rem 1rem 1rem;
+}
+
+.modalCheckboxContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalCheckboxContainer > h4 {
+    font-weight: 300;
+    color: grey;
+}
+
+.typeContainer {
+    margin: 0.5rem 0rem 0.3rem 2rem;
+}
+.typeContainer > h3 {
+    font-weight: 400;
+    color: grey;
+}
+
+.selectBoxContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0rem;
+}
+
+.selectBox {
+    width: 60%;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0rem;
+}
+
+.buttonContainer > button {
+    font-weight: 400;
+    padding: 0.4rem 1rem;
+    margin-right: 6%;
+    font-size: 0.9rem;
+}
+
+.buttonContainer > .pinkButton {
+    background-color: #ea4868;
+    color: white;
+}
+
+.buttonContainer > .pinkButton:hover {
+    background-color: #ea4868;
+    color: white;
+}
+
+.buttonContainer > .whiteButton {
+    box-shadow: rgba(100,100,111,0.2) 0px 2px 20px 0px;
+}
+
+.buttonContainer > .whiteButton:hover {
+    box-shadow: rgba(100,100,111,0.2) 0px 2px 20px 0px;
+}
